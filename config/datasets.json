@@ -1,0 +1,96 @@
+{
+  "grid": [
+    {
+      "version": "2015-09-22",
+      "download": "https://ndownloader.figshare.com/files/2284777",
+      "format": "json"
+    },
+    {
+      "version": "2015-10-09",
+      "download": "https://ndownloader.figshare.com/files/2354086",
+      "format": "json"
+    },
+    {
+      "version": "2015-11-05",
+      "download": "https://ndownloader.figshare.com/files/2409936",
+      "format": "json"
+    },
+    {
+      "version": "2015-12-01",
+      "download": "https://ndownloader.figshare.com/files/2595459"
+    },
+    {
+      "version": "2015-12-14",
+      "download": "https://ndownloader.figshare.com/files/3580830"
+    },
+    {
+      "version": "2016-01-21",
+      "download": "https://ndownloader.figshare.com/files/3675453"
+    },
+    {
+      "version": "2016-01-25",
+      "download": "https://ndownloader.figshare.com/files/3678441"
+    },
+    {
+      "version": "2016-02-29",
+      "download": "https://ndownloader.figshare.com/files/4787569"
+    },
+    {
+      "version": "2016-04-01",
+      "download": "https://ndownloader.figshare.com/files/4901572"
+    },
+    {
+      "version": "2016-04-28",
+      "download": "https://ndownloader.figshare.com/files/5031049",
+      "notes": "This release changes the External ID format in the JSON dump and it is not backwards compatible so you will need to update any processes that access this data. See the new format description here or an example here"
+    },
+    {
+      "version": "2016-05-31",
+      "download": "https://ndownloader.figshare.com/files/5324929"
+    },
+    {
+      "version": "2016-06-30",
+      "download": "https://ndownloader.figshare.com/files/5460605"
+    },
+    {
+      "version": "2016-07-28",
+      "download": "https://ndownloader.figshare.com/files/5648784"
+    },
+    {
+      "version": "2016-09-06",
+      "download": "https://ndownloader.figshare.com/files/5930652"
+    },
+    {
+      "version": "2016-09-30",
+      "download": "https://ndownloader.figshare.com/files/6294621"
+    },
+    {
+      "version": "2016-11-02",
+      "download": "https://ndownloader.figshare.com/files/6854184"
+    },
+    {
+      "version": "2016-12-06",
+      "download": "https://ndownloader.figshare.com/files/6998954"
+    },
+    {
+      "version": "2017-01-10",
+      "download": "https://ndownloader.figshare.com/files/7350397"
+    },
+    {
+      "version": "2017-01-31",
+      "download": "https://ndownloader.figshare.com/files/7449070"
+    },
+    {
+      "version": "2017-03-08",
+      "download": "https://ndownloader.figshare.com/files/7842559"
+    },
+    {
+      "version": "2017-04-04",
+      "download": "https://ndownloader.figshare.com/files/7988347"
+    },
+    {
+      "version": "2017-05-22",
+      "download": "https://ndownloader.figshare.com/files/8500607"
+    }
+  ]
+}
