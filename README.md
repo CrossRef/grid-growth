@@ -141,13 +141,13 @@ In total, 97% of the dataset are active institutions, the redirected and obsolet
 While the dataset is growing, as the following graph shows, the additions have been fairly even. Excluding the initial 
 release, each new version includes, on average, 2% more records.
 
-![total-new.png](total-new.png)  
+![total-new.png](data/total-new.png)  
 
 Changes to existing records are more sporadic and are at times far-reaching. The following graph shows the total number of 
 records and the number of changed records for each release. A change has been counted wherever there has been an update 
 to a record, regardless of how minor the edit may have been.
 
-![total-changed.png](total-changed.png)  
+![total-changed.png](data/total-changed.png)  
 
 There have been four occasions where more than 40% of the dataset has been revised in some way. These are:
 
@@ -188,7 +188,7 @@ individual fields. E.g. are textual changes relatively minor corrections?
 The following graph shows the total number of edits across the life of the dataset for each of the main fields
 (Several with zero or very small number of edits, e.g. `email` and `ip_address` have been excluded).
 
-![edits-by-field.png](edits-by-field.png)
+![edits-by-field.png](data/edits-by-field.png)
 
 The graph higlights where the maintenance activity is occuring in the dataset. The `addresses`, `external_ids` and `labels` 
 fields appear to have been the focus of most of the edits. However when we look at the detail of when those edits took place 
@@ -206,9 +206,9 @@ institutions in the dataset and links to content on the web.
 The following two graphs compares edit rates on labelling fields with relationship fields. This may help to characterise the type of 
 editorial work: records management versus relationship management.
 
-![edits-metadata.png](edits-metadata.png)
+![edits-metadata.png](data/edits-metadata.png)
 
-![edits-linkage.png](edits-linkage.png)
+![edits-linkage.png](data/edits-linkage.png)
 
 The peaks in edits for the `external_ids` field corresponds to the schema changes noted earlier: addition of links to OrgReg and Wikidata, 
 and changes to the structure of that the field for all records.
