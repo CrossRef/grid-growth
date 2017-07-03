@@ -154,7 +154,8 @@ There have been four occasions where more than 40% of the dataset has been revis
 * 2015-10-09 (43%) -- the release notes indicate that "Coverage of institutes with types increased from 33% to 76%" 
 * 2016-02-29 (93%) -- this was the date that labels were imported from Wikidata
 * 2016-04-28 (43%) -- this was due to the revisions to the schema relating to the `external_ids` and additional sources
-* 2017-01-10 (92%) -- while not explicitly noted in the change log, this appears to be down to changes to the `addresses` field
+* 2017-01-10 (92%) -- while not explicitly noted in the change log, the changes are due to the addition of the `license` property to the `geonames_city` field which 
+impacts every record with an `address`
 
 Excluding these events, each release includes, on average edits to approximately 4% of the records in the system.
 
@@ -195,10 +196,12 @@ fields appear to have been the focus of most of the edits. However when we look 
 we find that
 
 * 95% of changes to the `label` field are accounted for by the addition of this field in the 2016-02-29 release when values were added from Wikidata
-* 72% of the changes to the `addresses` field are accounted for by changes in the 2017-01-10 release, and 10% by the 2016-02-29
+* 72% of the changes to the `addresses` field are accounted for by changes in the 2017-01-10 release (during which the structure of each address was amended to include 
+a `license` property) and 10% by the 2016-02-29
 * 70% of the changed to the `name` field occured in the 2016-07-28 release
 
-So while there has been large scale updates to some fields, in practice edit rates are relatively low.
+So while there has been large scale updates to some fields these larger changes are often associated with schema revisions. In practice actual edit rates 
+are relatively low.
 
 The GRID dataset essentially consists of metadata about institutions (`name`, `aliases`) as well as some relationships, e.g. between 
 institutions in the dataset and links to content on the web.
